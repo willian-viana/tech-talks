@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSSP #14 - Vanilla JS</title>
+  <link href="https://unpkg.com/garden/dist/css/garden.min.css" rel="stylesheet">
+  <style>
+    .container {
+      text-align: center;
+    }  
+    
+    .row {
+      margin-bottom: 2rem;
+    }
+  
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1 class="heading-1"> Hello, World! </h1>
+    <section class="row bubble" id="xpto">
+      <div class="col-xs-12" id="example">
+        <button id="btn-bubble" class="btn button button-primary" value="Este botão não deveria receber nenhum listener">Butaum</button>
+        <button class="btn button button-danger" value="Este botão não deveria receber nenhum listener">Outro Butaum</button>
+      </div>
+    </section>
+
+    <section class="row">
+      <div class="col-xs-12">
+        <button class="button button-primary" id="create-button">
+          Crie um novo button faz favô
+        </button>
+      </div>
+    </section>
+    </div>
+
+    <!-- Cada Exemplo requer 1 script -->
+    <!-- <script src="./no-delegation-example-1.js"></script> -->
+    <!-- <script src="./no-delegation-example-2.js"></script> -->
+    <!-- <script src="./no-delegation-example-3.js"></script> -->
+    <!-- <script src="./event-delegation-example.js"></script> -->
+    <script src="./propagation-example.js"></script>
+</body>
+</html>
