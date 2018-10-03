@@ -6,6 +6,9 @@ Esta foi uma tech talk voltada ao Vanilla JS.
 
 Os slides podem ser encontrados em [slides.com](https://slides.com/willianviana/vanilla-js-event-delegation)
 
+Problema apresentado:
+
+ - Adicionar `N` botões no DOM e fazer com que o elemento receba o listener de forma dinâmica.
 
 Cada arquivo JS representa um exemplo:
 
